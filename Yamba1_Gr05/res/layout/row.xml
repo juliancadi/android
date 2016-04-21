@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_height="wrap_content" android:orientation="vertical"
+  android:layout_width="fill_parent">
+  <!-- Horizontal linear layout <2> -->
+  <LinearLayout android:layout_height="wrap_content"
+    android:layout_width="fill_parent">
+    <!-- User <3> -->
+    <TextView android:layout_height="wrap_content"
+      android:layout_width="fill_parent" android:layout_weight="1"
+      android:id="@+id/textUser" android:text="@string/Slashdot"
+      android:textStyle="bold" android:textColor="#87cefa"></TextView>
+    <!-- Timestamp <4> -->
+    <TextView android:layout_height="wrap_content"
+      android:layout_width="fill_parent" android:layout_weight="1"
+      android:gravity="right" android:id="@+id/textCreatedAt"
+      android:text="@string/minago" android:textColor="#5f9ea0"></TextView>
+  </LinearLayout>
+  <!-- Status <5> -->
+  <TextView android:layout_height="wrap_content"
+    android:layout_width="fill_parent" android:id="@+id/textText"
+    android:text="@string/Firefox" android:textColor="#7fff00"></TextView>
+</LinearLayout>
